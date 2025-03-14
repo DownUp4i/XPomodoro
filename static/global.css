@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    background-color: var(--white);
+    font-weight: 300;
+}
+
+:root {
+    --black: #333333;
+    --white: #f2f2f2;
+    --orange: #f95738;
+}
+
+#root {
+    max-width: 100%;
+    margin: 0 auto;
+}

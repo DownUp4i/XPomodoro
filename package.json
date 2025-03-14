@@ -1,0 +1,29 @@
+{
+    "name": "xpomodoro",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "live-server",
+        "build": "rollup -c --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DownUp4i/XPomodoro.git"
+    },
+    "author": "Timur Alimov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DownUp4i/XPomodoro/issues"
+    },
+    "homepage": "https://github.com/DownUp4i/XPomodoro#readme",
+    "description": "it's like pomodoro but more interesting",
+    "devDependencies": {
+        "@rollup/plugin-node-resolve": "^16.0.1",
+        "rollup": "^4.35.0",
+        "rollup-plugin-import-css": "^3.5.8"
+    },
+    "dependencies": {
+        "on-change": "^5.0.1"
+    }
+}

@@ -1,0 +1,47 @@
+.timer__wrapper {
+    background-color: var(--black);
+    color: var(--white);
+    position: fixed;
+    inset: 0px;
+    width: 800px;
+    height: 380px;
+    max-width: 100vw;
+    max-height: 100dvh;
+    margin: 130px auto;
+    border-radius: 20px;
+}
+
+.timer__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.timer__header-start {
+    padding-right: 20px;
+    border-right: 1px white solid;
+}
+
+.timer__header-item {
+    margin-left: 20px;
+}
+
+.timer__header-options {
+    position: absolute;
+    right: 20px;
+}
+
+.timer__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+}
+
+.timer__start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
